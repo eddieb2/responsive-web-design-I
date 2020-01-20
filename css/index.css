@@ -433,7 +433,8 @@ footer{
   	width: auto;
 	}
 	.subContainerThree {
-    width: auto;
+		width: auto;
+		padding-right: 4%;
 	}
 	.listContainer {
 		padding-left: 10%;
@@ -459,5 +460,26 @@ footer{
 	}
 	.containerTwo div{
 		height: auto;
+	}
+	.newButton{
+		height: auto;
+		width: auto;
+		font-size: .65rem;
+	}
+	.containerThree{
+		flex-wrap: wrap;
+	}
+	.services-info-img{
+		width: 75%;
+	}
+	.subContainerThree{
+		height: 50%;
+	}
+	.listContainer{
+		font-size: .75rem;
+		padding-left: 5%;
+	}
+	.servicesFooter{
+		font-size: .75rem;
 	}
 }
