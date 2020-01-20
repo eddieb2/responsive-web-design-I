@@ -296,7 +296,7 @@ footer{
 
 
 
-/* Ipad */
+/* Ipad Home Page*/
 
 @media(max-width: 800px) {
 	body{
@@ -357,10 +357,9 @@ footer{
 }
 
 
-/* Iphone 6,7, & 8 */
+/* Iphone 6,7, & 8 Home Page*/
 
 @media(max-width: 500px) {
-
 	.links{
 		flex-direction: column;
 		text-align: center;
@@ -411,5 +410,54 @@ footer{
 	}
 	.contact h1{
 		font-size: 1rem;
+	}
+}
+
+/* Ipad Services Page */
+
+@media(max-width: 800px) {
+	.services-header-img {
+		height: auto;
+		width: 100%;
+	}
+	#servicesTitle{
+		font-size: 1.75rem;
+	}
+	.containerOne p{
+		font-size: 1.2rem;
+	}
+	.containerTwo p{
+		font-size: 1.1rem;
+	}
+	.services-info-img {
+  	width: auto;
+	}
+	.subContainerThree {
+    width: auto;
+	}
+	.listContainer {
+		padding-left: 10%;
+		font-size: 1rem;
+	}
+	.servicesFooter{
+		font-size: 1.25rem;
+	}
+}
+
+@media(max-width: 500px) {
+	#servicesTitle{
+		font-size: 1rem;
+	}
+	.containerOne p{
+		font-size: .75rem;
+	}
+	.containerTwo p{
+		font-size: .75rem;
+	}
+	.containerTwo h1{
+		font-size: 1rem;
+	}
+	.containerTwo div{
+		height: auto;
 	}
 }
