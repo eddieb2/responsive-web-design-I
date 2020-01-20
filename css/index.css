@@ -298,7 +298,7 @@ footer{
 
 /* Ipad */
 
-@media(max-width: 768px) {
+@media(max-width: 800px) {
 	body{
 		margin: 4% 2% 2% 2%;
 	}
@@ -359,7 +359,7 @@ footer{
 
 /* Iphone 6,7, & 8 */
 
-@media(max-width: 375px) {
+@media(max-width: 500px) {
 
 	.links{
 		flex-direction: column;
