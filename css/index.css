@@ -86,7 +86,7 @@ body{
 
 /* Navigation Bar */
 .navContainer{
-	margin: 0% 15%;
+	/* margin: 0% 15%; */
 	margin-top: 1%;
 	display: flex;
 	text-decoration: none;
@@ -207,6 +207,9 @@ footer{
 	text-align: center;
 }
 
+#about, #features, .vision, .services, .products{
+	padding: 2%;
+}
 
 /* START OF SERVICES PAGE STYLING */
 
@@ -354,4 +357,59 @@ footer{
 }
 
 
-/* Iphone */
+/* Iphone 6,7, & 8 */
+
+@media(max-width: 375px) {
+
+	.links{
+		flex-direction: column;
+		text-align: center;
+		border-bottom: 1px solid gray;
+	}
+	.links a{
+		padding: 2% 0%;
+		border-top: 1px solid gray;
+		font-size: 1rem;
+	}
+	.imgContainer{
+		width: 35%;
+		margin-bottom: 0%;
+		padding-bottom: 2%;
+	}
+	.homeHeader h1{
+		font-size: 3rem;
+	}
+	.homeHeader{
+		margin: 10% 0%;
+	}
+	.button button{
+		width: 7.5rem;
+		padding: 0;
+		font-size: .8rem;
+	}
+	.firstBlock{
+		flex-direction: column;
+	}
+	.secondBlock{
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.services{
+		flex-basis: 100%;
+	}
+	.products{
+		flex-basis: 100%;
+	}
+	.vision{
+		flex-basis: 100%;
+	}
+	p{
+		font-size: .8rem;
+	}
+	h3{
+		font-size: 1rem;
+	}
+	.contact h1{
+		font-size: 1rem;
+	}
+}
