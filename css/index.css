@@ -63,7 +63,7 @@ html, body{
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
 
@@ -324,4 +324,34 @@ footer{
 		margin: 0;
 		width: 100%;
 	}
+	.firstBlock div{
+		margin-top: 4%;
+	}
+	#features{
+		padding: 2%;
+	}
+	#about{
+		padding: 2%;
+	}
+	.secondBlock div{
+		padding: 2%;
+	}
+	p{
+		font-size: 1.25rem;
+	}
+	.homeHeader h1{
+		font-size: 5rem;
+	}
+	.links{
+		font-size: 1.25rem;
+	}
+	.middle-img{
+		width: 100%;
+	}
+	.contact{
+		padding-left: 2%;
+	}
 }
+
+
+/* Iphone */
